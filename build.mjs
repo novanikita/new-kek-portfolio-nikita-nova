@@ -251,7 +251,7 @@ function casePage(lang, p, i) {
         return `<div class="row row--${items.length}">${items
           .map(
             (m, k) =>
-              `<figure data-reveal style="--d:${k * 0.08}s;flex:${(m.w / m.h).toFixed(4)} 1 0%"><img src="${u.root}${m.path}" width="${m.w}" height="${m.h}" alt="${esc(p.title)} — ${t.imageAlt} ${++shot}" loading="lazy" decoding="async"></figure>`,
+              `<figure data-reveal style="--d:${k * 0.08}s;flex:${((m.w / m.h) * 100).toFixed(2)} 1 0%"><img src="${u.root}${m.path}" width="${m.w}" height="${m.h}" alt="${esc(p.title)} — ${t.imageAlt} ${++shot}" loading="lazy" decoding="async"></figure>`,
           )
           .join('')}</div>`;
       })

@@ -323,4 +323,74 @@ export const projects = [
       { img: [19, 20] },
     ],
   },
+  {
+    slug: 'flowerdog',
+    folder: 'flowerdog',
+    prefix: 'flowerdog-',
+    title: 'Flowerdog',
+    accent: '#0056d3',
+    layout: 'full',
+    tagline: {
+      ru: 'Сайт дизайн-студии Flowerdog',
+      en: 'Website for the Flowerdog design studio',
+    },
+    tags: { ru: ['Сайт', 'Веб-дизайн'], en: ['Website', 'Web design'] },
+    client: { ru: 'Flowerdog studio', en: 'Flowerdog studio' },
+    discipline: { ru: 'Веб-дизайн', en: 'Web design' },
+    scope: {
+      ru: 'Главная, проекты, «О нас», страницы кейсов, мобильная версия',
+      en: 'Home, projects, about, case pages, mobile version',
+    },
+    lead: {
+      ru: 'Flowerdog — камерная дизайн-студия, которая круто работает с едой и коммуникационным дизайном: брендинг, упаковка, рекламные креативы и ролики для Яндекса, Додо Пиццы и других. Я сделала для студии сайт, который говорит так же просто и уверенно, как сама команда.',
+      en: 'Flowerdog is a small design studio that excels at food and communication design: branding, packaging, ad creatives and videos for Yandex, Dodo Pizza and others. I designed a website for the studio that speaks as simply and confidently as the team itself.',
+    },
+    task: {
+      ru: 'Показать очень разные работы — от упаковки чипсов до сотни рекламных задач для Яндекса — и не потерять голос студии: тёплый, человеческий, без агентского пафоса.',
+      en: 'Show very different work — from crisp packaging to a hundred ad projects for Yandex — without losing the studio’s voice: warm, human, with none of the agency pomp.',
+    },
+    solution: {
+      ru: 'Один фирменный синий на белом и огромный логотип во всю ширину шапки. Работы живут в карточках разной формы — прямоугольник, арка, овал, — поэтому сетка ощущается как витрина, а не таблица. Под каждой карточкой — полоски слайдов, как в сторис. Страница «О нас» построена как диалог двух основателей, у каждого свой цвет. А для потока задач Яндекса — журнал с номерами, датами, странами и тегами.',
+      en: 'One signature blue on white and a huge logo spanning the whole header. The work lives in cards of different shapes — rectangle, arch, oval — so the grid feels like a shop window rather than a table. Under every card sit story-like slide bars. The About page is a dialogue between the two founders, each with their own colour. And the stream of Yandex projects gets a log with numbers, dates, countries and tags.',
+    },
+    rows: [
+      { img: [1] },
+      {
+        text: {
+          ru: 'Карточки разной формы и полоски слайдов под каждой: сетка работ работает как витрина.',
+          en: 'Cards of different shapes with slide bars underneath: the work grid acts as a shop window.',
+        },
+      },
+      { img: [2, 3] },
+      {
+        text: {
+          ru: '«О нас» — диалог двух основателей. У каждого голоса свой цвет: оранжевый и синий.',
+          en: 'About is a dialogue between the two founders. Each voice has its own colour: orange and blue.',
+        },
+      },
+      { img: [4] },
+      { img: [5] },
+      {
+        text: {
+          ru: 'Журнал проектов: больше сотни задач для Яндекс Еды и Yango, у каждой номер, дата, страна и теги.',
+          en: 'A project log: over a hundred tasks for Yandex Eats and Yango, each with a number, date, country and tags.',
+        },
+      },
+      { img: [6] },
+      {
+        text: {
+          ru: 'На телефоне тот же характер: крупный логотип, короткие тексты и работы во весь экран.',
+          en: 'On the phone it keeps the same character: a big logo, short copy and full-screen work.',
+        },
+      },
+      { img: [7] },
+      {
+        text: {
+          ru: 'В футере — рисованный цветок-собака: маленькая человеческая деталь внутри строгой системы.',
+          en: 'In the footer, a hand-drawn flower-dog: a small human touch inside a strict system.',
+        },
+      },
+      { img: [8] },
+    ],
+  },
 ];
